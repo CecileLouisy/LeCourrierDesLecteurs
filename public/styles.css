@@ -1,0 +1,38 @@
+.alert {
+    color: red;
+}
+.containerArticles {
+    display: flex;
+    border: 1px solid rgb(255, 0, 208);
+    margin: 2em;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.articles {
+    border: 1px solid rgb(142, 9, 237);
+    border-radius: 35px;
+    margin: 0.5em;
+    padding: 1em;
+    min-width: 200px;
+    min-height: 200px;
+}
+.show {
+    padding: 1em;
+    border-radius: 15%;
+    border: 1px solid brown;
+    font-size: 1em;
+    text-decoration: none;
+    margin:10px;    
+}
+h1, h2 {
+    text-align: center;
+}
+
+a {
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 10px;
+}
